@@ -1,0 +1,318 @@
+/*
+author : aditya kumar
+theme : restaurent
+version : version 1.0
+
+*/
+
+
+
+
+/*css for all*/
+*{
+
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+   
+width: 80%;
+    /* text-align: center; */
+    margin: 0  auto;
+    padding: 1%;
+}
+
+
+.img-responsive{
+    width:"50%";
+}
+
+.img-curve{
+    border-radius: 15px;
+}
+
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color:#2e0dc4;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #eccc68;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 12px;
+}
+
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #ff4757;
+    color: #810913;
+}
+
+
+h2{
+    color: #57606f;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+    
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 30%;
+
+}
+
+                            /*css for nav bar*/
+
+/*css for logo*/
+ 
+.logo{
+
+  
+    width: 10%;
+    height: 10;
+    float: left;
+}
+
+.navbar{
+background-color: whitesmoke;}
+
+.menu{
+    line-height: 60px;
+}
+
+
+
+
+.menu ul{
+    list-style-type: none;
+    
+
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+
+
+        /*css for food search section*/
+
+.food-search{
+   /* background-image: url("..img/images/bg2.jpg");  */
+
+   background-color: #57606f;
+    padding: 6% 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+
+    /*CSS for categories */
+
+
+    .categories{
+        padding: 4% 0;
+
+    }
+
+
+.box3{
+ 
+    width: 31%;
+    float: left;
+    margin: 1%;
+   
+}
+
+
+/*CSS for food menu */
+.food-menu{
+
+    background-color: rgb(216, 210, 210);
+    padding: 4% 0;
+}
+
+
+
+.food-menu-box{
+    
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: #57606f;
+}
+
+
+
+
+ /*css for social class */
+
+.footer1{
+    background-color: #0a0b0e;
+}
+
+.footer p{
+    color: aliceblue;
+}
+
+.end{
+
+    margin: 1%;
+    padding: 2% 2%;
+    color: aliceblue;
+}
+
+.mobile{
+    float: left;
+}
+
+ .social ul{
+     list-style-type: none;
+ }
+
+ .social ul li{
+     display: inline;
+     padding: 1%;
+
+ }
+
+
+
+
+
+ /* CSS for mobile size and smaller screen */
+
+
+ @media only screen and (max-width:768px)
+ {
+     .logo{
+         width: 50%;
+         float: none;
+         margin: 1% auto;
+     }
+
+     .menu ul{
+
+        text-align: center;
+     }
+
+     .food-search input[type="search"]{
+         width: 90%;
+         padding: 2%;
+         margin-bottom: 3%;
+     }
+.btn{
+    width: 90%;
+    padding: 2%;
+}
+
+
+.food-search{
+
+    padding: 10% 0;
+}
+
+.categories{
+    padding: 20% 0;
+}
+ h2{
+     margin-bottom:10% ;
+ }
+
+.box3{
+    width: 95%;
+    margin: 2% auto;
+
+}
+
+.food-menu{
+    padding: 20% 0;
+
+}
+
+.food-menu-box{
+    width: 80%;
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.social{
+    padding: 5% 0;
+}
+
+
+}    
+ 
